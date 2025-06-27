@@ -42,7 +42,7 @@ total_job_count AS ( -- This calculates the the total number of jobs (job_ids) i
 SELECT 
     top_data_science_jobs_skills.skills,
     COUNT(*) AS skill_count,
-    ROUND(((COUNT(*)::FLOAT / (SELECT total_jobs FROM total_job_count)) * 100)::numeric, 1) AS skill_percentage
+    ROUND(((COUNT(*)::FLOAT / (SELECT total_jobs FROM total_job_count)) * 100)::NUMERIC, 1) AS skill_percentage
 FROM
     top_data_science_jobs_skills
 GROUP BY 
