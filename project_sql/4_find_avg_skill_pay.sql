@@ -18,4 +18,4 @@ GROUP BY
     skills_dim.skills
 ORDER BY
     salary_avg DESC
-LIMIT 10
+

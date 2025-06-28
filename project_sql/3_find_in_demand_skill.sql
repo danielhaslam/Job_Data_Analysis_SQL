@@ -10,7 +10,8 @@ WITH find_total_jobs AS ( -- This calculates the the total number of jobs (job_i
         job_postings_fact
     WHERE
         job_title_short = 'Data Scientist' AND
-        job_location LIKE '%UK'
+        job_location LIKE '%UK' AND
+        salary_year_avg IS NOT NULL
 )
 
 SELECT
@@ -23,9 +24,9 @@ INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
 LEFT JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
     job_title_short = 'Data Scientist' AND
-    job_location LIKE '%UK'
+    job_location LIKE '%UK' AND
+    salary_year_avg IS NOT NULL
 GROUP BY
     skills
 ORDER BY
     number_of_demands DESC
-LIMIT 10 
