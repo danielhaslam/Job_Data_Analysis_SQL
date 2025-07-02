@@ -64,7 +64,7 @@ Python emerges as the dominant required skill, while SQL appears as the distant 
 
 In `3_find_top_skills_all_jobs`, the analysis identified the most commonly required skills across all data science job postings in the UK. The findings indicate that Python, SQL, and Machine Learning are the most frequently mentioned skills. The following visualisation illustrates the distribution of these top skills:
 
-![](results/2_visuals.png)
+![](results/3_visual.png)
 
 Once again, Python and SQL emerge as the dominant two skills. Additionally, skills in Amazon Web Services (AWS), R, Tableau and Excel appear as required skills in more than 20% of data science job postings in the UK.
 
