@@ -1,5 +1,5 @@
 /* 
-Here, the 50 top-paying Data Scientist jobs based in the UK are identified,
+Here, the 20 top-paying Data Scientist jobs based in the UK are identified,
 and the skills required for these high-paying jobs are found. From the arising table,
 the top 10 frequently-appearing skills are found, along with their percentage of frequency among these postings.
 */
@@ -18,9 +18,8 @@ WITH top_data_science_jobs_skills AS ( -- This adds to top_data_science_jobs, re
         WHERE
             salary_year_avg IS NOT NULL AND
             job_title_short = 'Data Scientist' AND
-            job_location LIKE '%UK'
+            (job_location LIKE '%UK' OR job_location = 'United Kingdom')
         ORDER BY salary_year_avg DESC
-        LIMIT 50
     )
 
     SELECT 
