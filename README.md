@@ -14,7 +14,7 @@ By querying the databases, this project ultimately sought answers to five questi
 2. What are the skills most often required for the highest-paying job postings in the UK?
 3. What are the top skills most sought after, among all data science jobs in the UK?
 4. What are the average salaries for data science job postings requiring each skill in the UK? 
-5. What are the optimal skills for data science job postings in the UK, in terms of both associated average salary, and  demand? 
+5. What are the optimal skills for data science job postings in the UK, in terms of both associated average salary, and demand? 
 
 ## Tools Used
 
@@ -26,5 +26,46 @@ The following software resources were required to answer these questions:
 
 ## Results
 
+The SQL written to answer these five questions can be found ![here](https://github.com/danielhaslam/Job_Data_Analysis_SQL/tree/main/project_sql). 
+
+### 1. What are the highest-paying data scientist job postings in the UK?
+
+From `1_find_top_paying_jobs`, the top 50 data scientist roles by salary were fetched. The following table displays the top 10 of these, along with the company, job location and annual salary.
+
+| Job ID  | Company Name              | Job Location                             | Average Yearly Salary (£) |
+|---------|---------------------------|------------------------------------------|----------------------------|
+| 565034  | Sanofi                    | Cambridge, UK                            | 205000                     |
+| 401338  | Adarga                    | London, UK                               | 192000                     |
+| 97173   | ZFX                       | London, UK                               | 192000                     |
+| 743921  | Cambridge Epigenetix      | Little Chesterford, Saffron Walden, UK   | 166942                     |
+| 201315  | Agilisys                  | London, UK                               | 166420                     |
+| 431917  | Sanofi                    | Cambridge, UK                            | 165000                     |
+| 1456281 | M-KOPA                    | London, UK                               | 158500                     |
+| 103652  | Tractable                 | London, UK                               | 157500                     |
+| 1029491 | C3.ai                     | London, UK                               | 157500                     |
+| 456177  | GoCardless                | London, UK                               | 157500                     |
+
+The largest salary stands at £205,000. 
+The lowest of the top 50 salaries stands at £72,900. 
+
+The median of the top 50 salaries is £112,360, while the mean average salary is 
+£122,531.84. 
+
+### 2. What are the skills most often required for the highest-paying job postings in the UK?
+
+From `2_find_top_skills_highest_paying_jobs`, the most frequently required skills for the highest-paying data scientist roles were identified. The analysis revealed that skills such as Python, Machine Learning, and SQL are consistently in high demand among these positions. The following visualisation provides a breakdown of the top skills required for the highest-paying roles:
+
 ![](results/2_visual.png)
+### 3. What are the top skills most sought after, among all data science jobs in the UK?
+
+In `3_find_top_skills_all_jobs`, the analysis identified the most commonly required skills across all data science job postings in the UK. The findings indicate that Python, SQL, and Machine Learning are the most frequently mentioned skills, followed by Data Analysis and Cloud Computing. The following visualisation illustrates the distribution of these top skills:
+
+![](results/3_visual.png)
+
+
+
+### 4.
+
+
+
 ## Conclusion
