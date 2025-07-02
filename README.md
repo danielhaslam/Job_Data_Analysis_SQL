@@ -26,5 +26,5 @@ The following software resources were required to answer these questions:
 
 ## Results
 
-![$\chi^2$ Contour Plot](assets/2_visual.png)
+![](results/2_visual.png)
 ## Conclusion
