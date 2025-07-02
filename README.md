@@ -93,4 +93,12 @@ The lowest-paying skills appear to be Matlab, OpenCV, Spring and Hadoop, each of
 
 Using `5_find_optimal_skills`, the analysis identified skills that strike a balance between high demand and high average salary. 
 
+Over all skills of interest, the following spread between demand and salary is observed in the following plot: 
+
+![](results/5_visual.png)
+
+Once again, SQL and Python stand out as high-demand skills, but do not yield a particularly high salary. It is revealed, furthermore, that scala - is a low-demand skill, despite being associated with its one particularly high-paying role. This is similarly exhibited with Word and Java.
+
+Power BI stands out as a skill that is not infrequently sought after while also being found as a required skill in high-paying jobs, while many lower pay skills, such as Matlab, Spark, Seaborn, Matplotlib (congregation of Python libraries, associated with analyst roles) and PostgreSQL, exhibit both particularly low demand and also pay very little.
+
 ## Conclusion
