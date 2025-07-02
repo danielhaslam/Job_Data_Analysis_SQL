@@ -22,7 +22,7 @@ The following software resources were required to answer these questions:
 
 - **PostgreSQL** was used as the relational database management system, to store and manage the data. 
 - **SQL** was used to query and manipulate the data. 
-- **pgAdmin 4** was the GUI by which the PostgreSQL database was interacted with, 
+- **pgAdmin 4** was the GUI by which the PostgreSQL database was interacted with.
 
 ## Results
 
@@ -55,7 +55,7 @@ The median of the top 50 salaries is $112,360, while the mean average salary is
 
 From `2_find_top_skills_highest_paying_jobs`, the most frequently required skills for the highest-paying 20 data scientist roles were identified. The analysis revealed that skills such as Python, Machine Learning, and SQL are consistently in high demand among these positions. The following visualisation provides a breakdown of the top skills required for the highest-paying roles:
 
-![](results/2_visual.png)
+![](results/3_visual.png)
 
 Python emerges as the dominant required skill, while SQL appears as the distant 2nd.
 
@@ -93,6 +93,6 @@ The lowest-paying skills appear to be Matlab, OpenCV, Spring and Hadoop, each of
 
 Using `5_find_optimal_skills`, the analysis identified skills that strike a balance between high demand and high average salary. 
 
-
+Th
 
 ## Conclusion
