@@ -32,7 +32,7 @@ The SQL written to answer these five questions can be found ![here](https://gith
 
 From `1_find_top_paying_jobs`, the top 50 data scientist roles by salary were fetched. The following table displays the top 10 of these, along with the company, job location and annual salary.
 
-| Job ID  | Company Name              | Job Location                             | Average Yearly Salary (£) |
+| Job ID  | Company Name              | Job Location                             | Average Yearly Salary (USD $) |
 |---------|---------------------------|------------------------------------------|----------------------------|
 | 565034  | Sanofi                    | Cambridge, UK                            | 205000                     |
 | 401338  | Adarga                    | London, UK                               | 192000                     |
@@ -72,7 +72,7 @@ Once again, Python and SQL emerge as the dominant two skills. Additionally, skil
 
 Using `4_find_avg_salary_per_skill`, the average salaries associated with each skill were calculated. The analysis revealed that certain skills, such as Scala and Word, are linked to higher average salaries compared to others. The following table displays the top 10 skills ranked by their associated average salaries:
 
-| Skill     | Average Salary (USD $) |
+| Skill     | Average Yearly Salary (USD $) |
 |-----------|---------------------|
 | Scala     | 205,000.00          |
 | Word      | 165,000.00          |
