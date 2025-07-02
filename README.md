@@ -93,6 +93,4 @@ The lowest-paying skills appear to be Matlab, OpenCV, Spring and Hadoop, each of
 
 Using `5_find_optimal_skills`, the analysis identified skills that strike a balance between high demand and high average salary. 
 
-Th
-
 ## Conclusion
