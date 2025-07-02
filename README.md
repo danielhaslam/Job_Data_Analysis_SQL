@@ -49,7 +49,9 @@ The largest salary stands at $205,000.
 The lowest of the top 50 salaries stands at $72,900. 
 
 The median of the top 50 salaries is $112,360, while the mean average salary is 
-£122,531.84. 
+$122,531.84. 
+
+An unsurprising geographical trend is also exhibited by salary: 40 out of the 50 highest paying data scientist postings in the UK are based in London, the capital city of the UK. 
 
 ### 2. What are the skills most often required for the highest-paying job postings in the UK?
 
@@ -102,3 +104,5 @@ Once again, SQL and Python stand out as high-demand skills, but do not yield a p
 Power BI stands out as a skill that is not infrequently sought after while also being found as a required skill in high-paying jobs, while many lower pay skills, such as Matlab, Spark, Seaborn, Matplotlib (congregation of Python libraries, associated with analyst roles) and PostgreSQL, exhibit both particularly low demand and also pay very little.
 
 ## Conclusion
+
+This project was realised as a manifestation of my learnt skills in using SQL, with PostgreSQL, to query large databases to draw meaningful insights. By leveraging these tools, actionable trends have been identified in salaries, and skills among data science job postings in 2023. The findings aim to assist aspiring data scientists and industry professionals in understanding the dynamics of the field and making informed career decisions.
