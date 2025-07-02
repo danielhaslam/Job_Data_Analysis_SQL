@@ -52,9 +52,10 @@ skill_pay_avg AS (
 SELECT
     skill_pay_avg.skills,
     skill_pay_avg.salary_avg,
-    skill_demand.number_of_demands,
-    skill_demand.percentage
+    skill_demand.number_of_demands
 FROM
     skill_pay_avg
 INNER JOIN skill_demand ON skill_pay_avg.skill_id = skill_demand.skill_id
-ORDER BY salary_avg DESC
+ORDER BY 
+    number_of_demands DESC,
+    salary_avg DESC
