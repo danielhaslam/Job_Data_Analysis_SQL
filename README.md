@@ -55,7 +55,7 @@ The median of the top 50 salaries is $112,360, while the mean average salary is
 
 From `2_find_top_skills_highest_paying_jobs`, the most frequently required skills for the highest-paying 20 data scientist roles were identified. The analysis revealed that skills such as Python, Machine Learning, and SQL are consistently in high demand among these positions. The following visualisation provides a breakdown of the top skills required for the highest-paying roles:
 
-![](results/2_visual.jpg)
+![](results/2_visual.png)
 
 Python emerges as the dominant required skill, while SQL appears as the distant 2nd.
 
@@ -64,7 +64,7 @@ Python emerges as the dominant required skill, while SQL appears as the distant 
 
 In `3_find_top_skills_all_jobs`, the analysis identified the most commonly required skills across all data science job postings in the UK. The findings indicate that Python, SQL, and Machine Learning are the most frequently mentioned skills. The following visualisation illustrates the distribution of these top skills:
 
-![](results/2_visual_1.jpg)
+![](results/2_visuals.png)
 
 Once again, Python and SQL emerge as the dominant two skills. Additionally, skills in Amazon Web Services (AWS), R, Tableau and Excel appear as required skills in more than 20% of data science job postings in the UK.
 
